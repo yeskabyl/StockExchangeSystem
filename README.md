@@ -17,3 +17,13 @@
 | Observer | Market events and listeners |
 | Composite | Portfolio → Account → Assets |
 | Visitor | Value, risk, tax, filtering, JSON export |
+
+## Project Structure
+
+- `observer` – Observer interfaces and event publisher.
+- `events` – Market event classes.
+- `feeds` – Stock and index data sources.
+- `model` – Portfolio and financial assets.
+- `visitor` – Financial calculations and JSON export.
+- `listeners` – Market event listeners.
+- `service` – Market simulation.
